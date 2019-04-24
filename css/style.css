@@ -922,20 +922,20 @@ select.form-control:not([size]):not([multiple]) {
   z-index: 10;
 }
 
-.banner .block .timer .syotimer-cell {
+.timer .syotimer-cell {
   margin-right: 25px;
   margin-bottom: 33px;
   display: inline-block;
 }
 
 @media (max-width: 480px) {
-  .banner .block .timer .syotimer-cell {
+  .timer .syotimer-cell {
     margin-right: 10px;
     margin-bottom: 20px;
   }
 }
 
-.banner .block .timer .syotimer-cell .syotimer-cell__value {
+.timer .syotimer-cell .syotimer-cell__value {
   min-width: 80px;
   font-family: "Montserrat", sans-serif;
   font-size: 35px;
@@ -951,12 +951,12 @@ select.form-control:not([size]):not([multiple]) {
 }
 
 @media (max-width: 480px) {
-  .banner .block .timer .syotimer-cell .syotimer-cell__value {
+  .timer .syotimer-cell .syotimer-cell__value {
     font-size: 30px;
   }
 }
 
-.banner .block .timer .syotimer-cell .syotimer-cell__unit {
+.timer .syotimer-cell .syotimer-cell__unit {
   text-align: center;
   font-size: 1rem;
   text-transform: lowercase;
@@ -1815,7 +1815,7 @@ select.form-control:not([size]):not([multiple]) {
 
 .registration .service-block {
   position: relative;
-  padding: 120px 10%;
+  padding: 140px;
 }
 
 .registration .service-block [class*=col-]:first-child {

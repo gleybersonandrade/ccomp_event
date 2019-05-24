@@ -1,0 +1,85 @@
+.about .image-block {
+    min-height: 350px;
+}
+
+.schedule .schedule-contents .schedule-item li.schedule-details .block {
+    min-height: 85px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+.navbar {
+    height: 90px;
+}
+
+.sponsors .block .image-block img {
+    height: 100px !important;
+}
+
+.sponsors .block .image-block {
+    padding: 20px 0 !important;
+}
+
+.testimonial .testimonial-item .media {
+    margin-left: 0px !important;
+}
+
+.mx-auto {
+    background-color: #fff;
+}
+
+.nav-link:hover {
+    color: #ff6600 !important;
+}
+
+@media (max-width: 1498px) {
+    .registration .service-block {
+        padding: 90px;
+    }
+
+    .registration .registration-block {
+        padding: 70px;
+    }
+}
+
+@media (max-width: 1366px) {
+    .registration .service-block {
+        padding: 30px;
+    }
+
+    .registration .registration-block {
+        padding: 12px;
+    }
+}
+
+@media (max-width: 991px) {
+    .about .image-block {
+        display: none;
+    }
+
+    .schedule .schedule-tab ul li.nav-item a {
+        font-size: 1rem;
+    }
+
+    .navbar {
+        height: 50px;
+    }
+}
+
+@media (max-width: 767px) {
+    .registration .service-block {
+        padding: 0px;
+    }
+    #banner {
+        text-align: center;
+    }
+    #banner h1 {
+        font-size: 3rem;
+    }
+}
+
+@media (max-width: 552px) {
+    .sponsors .block .list-inline-item {
+        margin-right: 0px !important;
+    }
+}

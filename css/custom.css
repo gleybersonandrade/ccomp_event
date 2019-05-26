@@ -28,7 +28,7 @@
     background-color: #fff;
 }
 
-.nav-link:hover {
+.navbar .nav-link:hover {
     color: #ff6600 !important;
 }
 
@@ -79,7 +79,42 @@
 }
 
 @media (max-width: 552px) {
+    .schedule .schedule-contents {
+        text-align: center;
+    }
     .sponsors .block .list-inline-item {
         margin-right: 0px !important;
     }
+}
+
+@media (max-width: 450px) {
+    .faq .accordion-block #accordion .card .card-header h5 a {
+        font-size: 0.9rem;
+    }
+    .faq .accordion-block #accordion .card {
+        font-size: 0.7rem;
+    }
+    .registration .service-block h5 {
+        font-size: 1rem;
+    }
+    .schedule .schedule-contents .schedule-item li {
+        font-size: 0.75rem;
+    }
+    .schedule .schedule-contents {
+        padding: 10px;
+    }
+    #banner h1 {
+        font-size: 2rem;
+    }
+    .registration .registration-block .block .title p {
+        font-size: 0.7rem;
+    }
+    .schedule .schedule-contents .schedule-item li.headings,
+    .schedule .schedule-contents .schedule-item li .block {
+        min-height: 55px;
+        padding-top: 20px !important;
+        padding-bottom: 20px !important;
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+    }    
 }

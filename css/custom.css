@@ -42,6 +42,10 @@
     left: 0px;
 }
 
+.map #map {
+    width: 100%;
+}
+
 @media (max-width: 1498px) {
     .registration .service-block {
         padding: 90px;

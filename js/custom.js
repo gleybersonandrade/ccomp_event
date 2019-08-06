@@ -37,10 +37,10 @@
         // -----------------------------
         $('.timer').syotimer({
             year: 2019,
-            month: 6,
-            day: 17,
-            hour: 9,
-            minute: 0,
+            month: 9,
+            day: 2,
+            hour: 8,
+            minute: 30,
             lang: 'por'
         });
         // -----------------------------

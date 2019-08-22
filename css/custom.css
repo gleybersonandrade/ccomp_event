@@ -61,8 +61,16 @@
 }
 
 .registration .registration-block .block .title {
-    margin-top: 35px;
-    margin-bottom: 35px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.speaker-img {
+    height: 100%;
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 5%;
 }
 
 @media (max-width: 1498px) {
@@ -101,6 +109,11 @@
     .schedule .schedule-contents .schedule-item ul li .speaker {
         width: 75%;
     }
+    .speaker-img {
+        width: 100%;
+        margin-left: 0%;
+        margin-right: 0%;
+    }
 }
 
 @media (max-width: 767px) {
@@ -118,6 +131,14 @@
     }
     .schedule .schedule-contents .schedule-item ul li .speaker {
         width: 66%;
+    }
+}
+
+@media (max-width: 575px) {
+    .speaker-img {
+        width: 60%;
+        margin-left: 20%;
+        margin-right: 20%;
     }
 }
 
@@ -171,5 +192,10 @@
     }
     .map .address-block li {
         font-size: 0.8rem;
+    }
+    .speaker-img {
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
     }
 }
